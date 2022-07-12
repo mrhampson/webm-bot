@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "webm-bot"
+version = "0.1.0"
+description = ""
+authors = ["mrhampson"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+"discord.py" = "^1.7"
+python-dotenv = "^0.20"
+
+[tool.poetry.dev-dependencies]
+black = "^22.3"
+pre-commit = "^2.18"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
